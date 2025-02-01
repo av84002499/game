@@ -1,0 +1,331 @@
+/* Global styles for the login page */
+.login-container {
+  background-image: url('../../../public/assets/login.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Added padding for smaller screens */
+}
+
+/* Card styles */
+.card {
+  width: 100%;
+  max-width: 500px; /* Optimal size for desktops */
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+/* Card body */
+.card-body {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Headings */
+.text-center {
+  text-align: center;
+}
+
+.man {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Form container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Input styling */
+.input,
+.password-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 320px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* Password input container */
+.password-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Password input */
+.password-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+}
+
+/* Password visibility button */
+.eye-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+}
+
+/* Button styling */
+.button {
+  background-color: #4caf50;
+  padding: 14px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  max-width: 320px;
+  transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Link styling */
+.link-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.link {
+  color: rgb(110, 87, 237);
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: rgb(89, 70, 200);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .login-container {
+      padding: 10px;
+  }
+
+  .card {
+      width: 90%;
+      max-width: 400px;
+  }
+
+  .input,
+  .password-container,
+  .button {
+      max-width: 100%;
+      width: 90%;
+  }
+
+  .eye-button {
+      width: auto;
+      text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-body {
+      padding: 1.5rem;
+  }
+
+  .input,
+  .password-container,
+  .button {
+      font-size: 14px;
+      padding: 10px;
+  }
+
+  .button {
+      padding: 12px;
+  }
+}
+
+  
+  
+  
+/* Register.css */
+
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 100%;
+  max-width: 500px;
+  background-color: #fcf9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.container1:hover {
+  transform: scale(1.02);
+}
+
+
+.pageTitle {
+  font-size: 40px;
+  font-weight: bold;
+  color: #1e2225;
+  margin-bottom: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.pageTitle:hover {
+  color: red;
+}
+
+.formContainer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: red;
+  box-shadow: 0 0 5px red;
+  outline: none;
+}
+
+.passwordContainer {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.passwordContainer input {
+  flex: 1;
+}
+
+.passwordContainer button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.3s ease-in-out;
+}
+
+.passwordContainer button:hover {
+  color: red;
+}
+
+.submitButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #1e2225;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.submitButton:hover {
+  background-color: red;
+  transform: scale(1.05);
+}
+
+.linkText {
+  margin-top: 10px;
+  color: #1e2225;
+}
+
+.link {
+  color: red;
+  cursor: pointer;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+  .container1 {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .formContainer {
+    width: 100%;
+  }
+
+  .pageTitle {
+    font-size: 30px;
+  }
+}
+
+
+/* Forgot css */
+
+.card2{
+  height: 30vh;
+  width: 100%;
+  max-width: 320px; /* Optimal size for desktops */
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+
+/* Updatepass */
+
+
+.card3{
+  height: 50vh;
+  width: 100%;
+  max-width: 320px; /* Optimal size for desktops */
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+
+.input{
+  color: #1e2225;
+}
+
+.password-input {
+  color: black; 
+}

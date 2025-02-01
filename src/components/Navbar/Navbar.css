@@ -1,0 +1,25 @@
+.navbar {
+    height: 50px;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-img {
+    height: 30px;
+  }
+  
+  .profile-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Adjust navbar height for smaller screens */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      height: auto;
+      padding: 10px;
+    }
+  }
+  
