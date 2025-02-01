@@ -1,0 +1,48 @@
+.card4 {
+    margin-top: 90px;
+    height: 600px;
+    width: 1500px;
+    background-color: rgb(252, 248, 248);
+    margin-left: 12px;
+}
+
+
+.card5 {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 31%;
+  height: 32%;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+.card-img-top {
+  width: 170px;
+  height: 120px;
+  border-radius: 6px;
+  object-fit: cover;
+  margin-left: 15px;
+  background-color: black;
+}
+.card-content {
+  flex-grow: 1;
+  text-align: left;
+}
+.card h2 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.card p {
+  margin: 5px 0;
+  color: #6c757d;
+  font-size: 0.9em;
+}
+
+
+
+
+  

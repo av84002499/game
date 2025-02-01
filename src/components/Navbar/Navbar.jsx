@@ -14,7 +14,7 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
-            <li className="nav-item active"><a className="nav-link" href="/">Dashboard</a></li>
+            <li className="nav-item active"><a className="nav-link" href="/Dashboard">Dashboard</a></li>
             <li className="nav-item"><a className="nav-link" href="/team-management">Team Management</a></li>
             <li className="nav-item"><a className="nav-link" href="/profile">Profile</a></li>
           </ul>
