@@ -37,9 +37,9 @@ const Dashboard = () => {
                     </div>
 
                 </div>
-                 
+
                 <div class="card-group">
-                <div class="card5">
+                    <div class="card5">
                         <div class="card-content">
                             <h2>Match 1</h2>
                             <p>Team A vs Team B</p>
@@ -66,7 +66,7 @@ const Dashboard = () => {
                 </div>
 
                 <div class="card-group ">
-                <div class="card5">
+                    <div class="card5">
                         <div class="card-content">
                             <h2>Match 1</h2>
                             <p>Team A vs Team B</p>
@@ -92,8 +92,39 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-
             </div>
+            <div className="card6">
+                <div className="card-body">
+                <div class="card-group ">
+                    <div class="card7">
+                        <div class="card-content">
+                            <h2>Match 1</h2>
+                            <p>Team A vs Team B</p>
+                            <p>03:30 PM, Live</p>
+                        </div>
+                        <img src="../assets/Image135.jpg" alt="fotbal" class="card-img-top" />
+                    </div>
+                    <div class="card7">
+                        <div class="card-content">
+                            <h2>Match 1</h2>
+                            <p>Team A vs Team B</p>
+                            <p>03:30 PM, Live</p>
+                        </div>
+                        <img src="../assets/Image135.jpg" alt="fotbal" class="card-img-top" />
+                    </div>
+                    <div class="card7">
+                        <div class="card-content">
+                            <h2>Match 1</h2>
+                            <p>Team A vs Team B</p>
+                            <p>03:30 PM, Live</p>
+                        </div>
+                        <img src="../assets/Image135.jpg" alt="fotbal" class="card-img-top" />
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
         </div>
     );
 };
