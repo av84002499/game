@@ -97,7 +97,6 @@ const Register = () => {
                 </p>
             </div>
             {loading && <Loader />}
-
         </div>
     );
 };

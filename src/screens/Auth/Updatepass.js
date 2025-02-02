@@ -86,7 +86,7 @@ const Updatepass = () => {
                     </div>
                     <hr />
                     <button className="button" onClick={handleUpdatePassword} disabled={loading}>
-                        {loading ? <Loader /> : "Update Password"}
+                       Update Password
                     </button>
                 </div>
             </div>
