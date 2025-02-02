@@ -1,6 +1,6 @@
 .card4 {
   margin-top: 80px;
-  height: 1000px;
+  height: 2000px;
   width: 1500px;
   background-color: rgb(252, 248, 248);
   margin-left: 12px;
@@ -77,6 +77,7 @@
   width: 1400px;
   background-color: rgb(234, 250, 255);
   margin-left: 28px;
+  border-radius: 10px;
 }
 
 
@@ -204,3 +205,36 @@
     height: 15px;
   }
 }
+
+
+/* Join New Contests */
+
+
+.card7 {
+  height: 70vh;
+  width: 202vh;
+  margin-top: 45px;
+  margin-left: 28px;
+  background-color: white;
+  border-radius: 20px;}
+
+.card-body1{
+  height: 57vh;
+  width: 101vh;
+  margin-left: 55px;
+  margin-top: 40px;
+  background-color: rgb(243, 97, 97);
+  border-radius: 10px;
+}
+
+.bottom2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.img-fluid{
+height: 460px;
+width: 760px;
+}
+
+

@@ -160,6 +160,27 @@ const Dashboard = () => {
                 </div>
             </div>
 
+            <div className="card7 mb-4">
+      <div className="row g-0">
+        <div className="col-md-8">
+          <div className="card-body1">
+          <h1 className="card-title text-center text-white">Join New Contests</h1>
+          <p className="card-text">
+              Participate in exciting new contests and showcase your skills against fellow sports enthusiasts!
+          </p>
+          <button>Join for free</button>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <img
+            src="../assets/Image 50.jpg"
+            className="img-fluid rounded-end"
+            alt="Card"
+          />
+        </div>
+      </div>
+    </div>
+
 
         </div>
     );
