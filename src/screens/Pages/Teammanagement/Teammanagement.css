@@ -1,6 +1,70 @@
-.contain4{
-    margin-top: 70px;
-    max-width: 1500px;
-    background-color: black;
-    margin-left: 13px;
+/* Upcoming & Live Matches */
+
+
+.container4 {
+    width: 213vh;
+    margin: auto;
+    background-color: rgb(255, 252, 252);
+    margin-top: 80px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.matches-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 22px;
+}
+
+.match-card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.match-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.live {
+    color: red;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    .container4 {
+        width: 95vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .matches-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container4 {
+        width: 100vw;
+        padding: 10px;
+    }
+
+    .matches-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    .match-card {
+        padding: 10px;
+    }
 }
