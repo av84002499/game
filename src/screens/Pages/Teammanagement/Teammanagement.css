@@ -38,7 +38,7 @@ h2 {
 
 @media screen and (max-width: 1200px) {
     .container4 {
-        width: 95vw;
+        width: 90vw;
     }
 }
 
@@ -50,7 +50,7 @@ h2 {
 
 @media screen and (max-width: 768px) {
     .container4 {
-        width: 100vw;
+        width: 90vw;
         padding: 10px;
     }
 
