@@ -73,7 +73,7 @@
 /* User Dashboard */
 
 .card6 {
-  height: 250px;
+  height: 280px;
   width: 1400px;
   background-color: rgb(234, 250, 255);
   margin-left: 28px;
@@ -210,31 +210,132 @@
 /* Join New Contests */
 
 
-.card7 {
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 70vh;
   width: 202vh;
-  margin-top: 45px;
+  margin-top: 22px;
   margin-left: 28px;
-  background-color: white;
-  border-radius: 20px;}
-
-.card-body1{
-  height: 57vh;
-  width: 101vh;
-  margin-left: 55px;
-  margin-top: 40px;
-  background-color: rgb(243, 97, 97);
+  background-color: rgb(223, 240, 249);
   border-radius: 10px;
 }
-
-.bottom2 {
-  text-align: center;
-  margin-bottom: 30px;
+.section {
+  display: flex;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 70vh;
+}
+.content {
+  background: #e55e5e;
+  color: white;
+  padding: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.content h11 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: -60px;
+}
+.content p1 {
+  margin: 15px 0;
+  font-size: 25px;
+  margin-top: 100px;
+}
+.content button {
+  background: white;
+  color: #e55e5e;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 120px;
+  width: 150px;
+}
+.content button:hover {
+  background: #f8d7da;
+}
+.image {
+  flex: 1;
+  background: url("../../../../public/assets/img.png") no-repeat center/cover;
+  height: 100%;
+  width: 100%;
 }
 
-.img-fluid{
-height: 460px;
-width: 760px;
+@media (max-width: 768px) {
+  .container3 {
+    width: 90vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+  .section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .content h11 {
+    font-size: 28px;
+    margin-top: 0;
+  }
+
+  .content p1 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .content button {
+    width: 120px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .image {
+    width: 100%;
+    height: 200px;
+  }
 }
+
+@media (max-width: 480px) {
+  .container3 {
+    width: 95vw;
+    height: auto;
+  }
+
+  .content h11 {
+    font-size: 24px;
+  }
+
+  .content p1 {
+    font-size: 16px;
+  }
+
+  .content button {
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .image {
+    height: 150px;
+  }
+}
+
 
 
