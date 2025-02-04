@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar"
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import Login from "./screens/Auth/Login";
 import Register from "./screens/Auth/Register";
 import Forgot from "./screens/Auth/Forgot"
@@ -9,6 +9,7 @@ import Otp from "./screens/Auth/Otp";
 import Updatepass from "./screens/Auth/Updatepass"
 import Dashboard from "./screens/Pages/Dashboard/Dashboard"
 import Teammanagement from "./screens/Pages/Teammanagement/Teammanagement"
+import Createplear from "./screens/Pages/Createplear/Createplear"
 const App = () => {
   return (
     <>
@@ -22,6 +23,7 @@ const App = () => {
           <Route key="Forgot" path="/Forgot" element={<Forgot />} />
           <Route key="Otp" path="/Otp" element={<Otp />} />
           <Route key="Updatepass" path="/Updatepass" element={<Updatepass />} />
+          <Route key="Createplear" path="/Createplear" element={<Createplear />} />
           <Route key="Dashboard" path="/Dashboard" element={
             <>
               <Navbar />
@@ -38,7 +40,7 @@ const App = () => {
 
 
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div >
     </>
   );

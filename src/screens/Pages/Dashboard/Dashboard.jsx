@@ -11,90 +11,112 @@ const Dashboard = () => {
 
                 <div className="card-body">
 
-                    <div class="card-group">
-                        <div class="card5">
-                            <div class="card-content">
-                                <h2>Match 1</h2>
-                                <p>Team A vs Team B</p>
-                                <p>03:30 PM, Live</p>
+                    <div className="card-group">
+                        <div className="card5">
+                            <div className="contest1">
+                                <div className="match-info">India vs England ODI</div>
+                                <div className="teams">
+                                    <div className="team"><img src="../assets/Image135.jpg" alt="India" /> IND</div>
+                                    <div className="time">41h</div>
+                                    <div className="team">ENG <img src="../assets/Image135.jpg" alt="England" /></div>
+                                </div>
+                                <a href="!">
+                                    <button className="prize-pool">
+                                        <div className="prize-amount">₹26 Crores</div>
+                                        <div className="prize-info">1st Prize: ₹1.50 Crores</div>
+                                        <div className="spots">
+                                            <div>71,78,085 spots left</div>
+                                            <div>72,68,661 spots</div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                                <div className="join-section">
+                                    Join for <span className="join-price">₹1 Only</span>
+                                </div>
+                                <a href="/Createplear" className="join-button">JOIN NOW</a>
                             </div>
-                            <img src="../assets/Image135.jpg" alt="fotbal" class="card-img-top" />
-                        </div>
-                        <div class="card5">
-                            <div class="card-content">
-                                <h2>Match 1</h2>
-                                <p>Team A vs Team B</p>
-                                <p>03:30 PM, Live</p>
-                            </div>
-                            <img src="../assets/Image135.jpg" alt="fotbal" class="card-img-top" />
-                        </div>
-                        <div class="card5">
-                            <div class="card-content">
-                                <h2>Match 1</h2>
-                                <p>Team A vs Team B</p>
-                                <p>03:30 PM, Live</p>
-                            </div>
-                            <img src="../assets/Image135.jpg" alt="fotbal" class="card-img-top" />
                         </div>
 
+                        <div className="card5">
+                            <div className="contest1">
+                                <div className="match-info">India vs England ODI</div>
+                                <div className="teams">
+                                    <div className="team"><img src="../assets/Image135.jpg" alt="India" /> IND</div>
+                                    <div className="time">41h</div>
+                                    <div className="team">ENG <img src="../assets/Image135.jpg" alt="England" /></div>
+                                </div>
+                                <a href="!">
+                                    <button className="prize-pool">
+                                        <div className="prize-amount">₹26 Crores</div>
+                                        <div className="prize-info">1st Prize: ₹1.50 Crores</div>
+                                        <div className="spots">
+                                            <div>71,78,085 spots left</div>
+                                            <div>72,68,661 spots</div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                                <div className="join-section">
+                                    Join for <span className="join-price">₹1 Only</span>
+                                </div>
+                                <a href="!" className="join-button">JOIN NOW</a>
+                            </div>
+                        </div>
+
+                        <div className="card5">
+                            <div className="contest1">
+                                <div className="match-info">India vs England ODI</div>
+                                <div className="teams">
+                                    <div className="team"><img src="../assets/Image135.jpg" alt="India" /> IND</div>
+                                    <div className="time">41h</div>
+                                    <div className="team">ENG <img src="../assets/Image135.jpg" alt="England" /></div>
+                                </div>
+                                <a href="!">
+                                    <button className="prize-pool">
+                                        <div className="prize-amount">₹26 Crores</div>
+                                        <div className="prize-info">1st Prize: ₹1.50 Crores</div>
+                                        <div className="spots">
+                                            <div>71,78,085 spots left</div>
+                                            <div>72,68,661 spots</div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                                <div className="join-section">
+                                    Join for <span className="join-price">₹1 Only</span>
+                                </div>
+                                <a href="!" className="join-button">JOIN NOW</a>
+                            </div>
+                        </div>
+
+                        <div className="card5">
+                            <div className="contest1">
+                                <div className="match-info">India vs England ODI</div>
+                                <div className="teams">
+                                    <div className="team"><img src="../assets/Image135.jpg" alt="India" /> IND</div>
+                                    <div className="time">41h</div>
+                                    <div className="team">ENG <img src="../assets/Image135.jpg" alt="England" /></div>
+                                </div>
+                                <a href="!">
+                                    <button className="prize-pool">
+                                        <div className="prize-amount">₹26 Crores</div>
+                                        <div className="prize-info">1st Prize: ₹1.50 Crores</div>
+                                        <div className="spots">
+                                            <div>71,78,085 spots left</div>
+                                            <div>72,68,661 spots</div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                                <div className="join-section">
+                                    Join for <span className="join-price">₹1 Only</span>
+                                </div>
+                                <a href="!" className="join-button">JOIN NOW</a>
+                            </div>
+                        </div>
+                        
                     </div>
-
-                    <div class="card-group">
-                        <div class="card5">
-                            <div class="card-content">
-                                <h2>Match 1</h2>
-                                <p>Team A vs Team B</p>
-                                <p>03:30 PM, Live</p>
-                            </div>
-                            <img src="../assets/Image135.jpg" alt="fotbal" class="card-img-top" />
-                        </div>
-                        <div class="card5">
-                            <div class="card-content">
-                                <h2>Match 1</h2>
-                                <p>Team A vs Team B</p>
-                                <p>03:30 PM, Live</p>
-                            </div>
-                            <img src="../assets/Image135.jpg" alt="fotbal" class="card-img-top" />
-                        </div>
-                        <div class="card5">
-                            <div class="card-content">
-                                <h2>Match 1</h2>
-                                <p>Team A vs Team B</p>
-                                <p>03:30 PM, Live</p>
-                            </div>
-                            <img src="../assets/Image135.jpg" alt="fotbal" class="card-img-top" />
-                        </div>
-                    </div>
-
-                    <div class="card-group ">
-                        <div class="card5">
-                            <div class="card-content">
-                                <h2>Match 1</h2>
-                                <p>Team A vs Team B</p>
-                                <p>03:30 PM, Live</p>
-
-                            </div>
-                            <img src="../assets/Image135.jpg" alt="fotbal" class="card-img-top" />
-                        </div>
-                        <div class="card5">
-                            <div class="card-content">
-                                <h2>Match 1</h2>
-                                <p>Team A vs Team B</p>
-                                <p>03:30 PM, Live</p>
-                            </div>
-                            <img src="../assets/Image135.jpg" alt="fotbal" class="card-img-top" />
-                        </div>
-                        <div class="card5">
-                            <div class="card-content">
-                                <h2>Match 1</h2>
-                                <p>Team A vs Team B</p>
-                                <p>03:30 PM, Live</p>
-                            </div>
-                            <img src="../assets/Image135.jpg" alt="fotbal" class="card-img-top" />
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
 
@@ -102,9 +124,9 @@ const Dashboard = () => {
                 <h2 className="card-header" style={{ marginLeft: "30px" }}>User Dashboard</h2>
                 <hr />
                 <div className="card-body">
-                    <div class="card-group ">
+                    <div className="card-group ">
 
-                        <div class="card-content">
+                        <div className="card-content">
                             <div className="wallet-card">
                                 <div className="wallet-info">
                                     <p className="wallet-title">Wallet Balance</p>
@@ -122,7 +144,7 @@ const Dashboard = () => {
                             </div>
                         </div>
 
-                        <div class="card-content">
+                        <div className="card-content">
                             <div className="wallet-card">
                                 <div className="wallet-info">
                                     <p className="wallet-title">Contests Summary</p>
@@ -141,7 +163,7 @@ const Dashboard = () => {
                             </div>
                         </div>
 
-                        <div class="card-content">
+                        <div className="card-content">
                             <div className="wallet-card">
                                 <div className="wallet-info">
                                     <p className="wallet-title">Performance</p>
@@ -163,14 +185,14 @@ const Dashboard = () => {
                 </div>
             </div>
 
-            <div class="container3">
-                <div class="section">
-                    <div class="content">
+            <div className="container3">
+                <div className="section">
+                    <div className="content">
                         <h11>Join New Contests</h11>
                         <p1>Participate in exciting new contests and showcase your skills against fellow sports enthusiasts!</p1>
                         <button>Join for free</button>
                     </div>
-                    <div class="image"></div>
+                    <div className="image"></div>
                 </div>
             </div>
 
