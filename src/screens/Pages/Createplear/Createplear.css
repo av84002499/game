@@ -87,7 +87,10 @@
 
 
 /* OR */
-
+.card10 {
+    margin: 0;
+    display: flex;
+}
 
 .separator {
     display: flex;
@@ -112,6 +115,18 @@
     border-radius: 50%;
     padding: 5px 12px;
     border: 1px solid #ddd;
+}
+
+/* Mobile (phone) view adjustments */
+@media (max-width: 768px) {
+    .separator {
+        max-width: 100%;
+    }
+
+    .separator span {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
 }
 
 
@@ -153,3 +168,5 @@
 .view-all:hover {
     text-decoration: underline;
 }
+
+

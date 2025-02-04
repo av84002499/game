@@ -13,35 +13,18 @@ const Createplear = () => {
                     </div>
                 </div>
                 <div class="separator">
-        <span>OR</span>
-    </div>
-    <div class="guru-section">
-        <div class="text-content">
-            <h2>Pick from Guru Teams</h2>
-            <p>Helped <span class="highlight">2 Crore+</span> people win</p>
-        </div>
-        <a href="!" class="view-all">View All &#8250;</a>
-    </div>
-                <div class="row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="!" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="!" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
+                    <span>OR</span>
                 </div>
+                <div className='card10'>
+                <div class="guru-section">
+                    <div class="text-content">
+                        <h2>Pick from Guru Teams</h2>
+                        <p>Helped <span class="highlight">2 Crore+</span> people win</p>
+                    </div>
+                    <a href="!" class="view-all">View All &#8250;</a>
+                </div>
+                </div>
+
             </div>
         </div>
     );
