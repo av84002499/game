@@ -10,6 +10,7 @@ import Updatepass from "./screens/Auth/Updatepass"
 import Dashboard from "./screens/Pages/Dashboard/Dashboard"
 import Teammanagement from "./screens/Pages/Teammanagement/Teammanagement"
 import Createplear from "./screens/Pages/Createplear/Createplear"
+import Joinpage from "./screens/Pages/Joinpage/Joinpage"
 const App = () => {
   return (
     <>
@@ -24,6 +25,8 @@ const App = () => {
           <Route key="Otp" path="/Otp" element={<Otp />} />
           <Route key="Updatepass" path="/Updatepass" element={<Updatepass />} />
           <Route key="Createplear" path="/Createplear" element={<Createplear />} />
+          <Route key="Joinpage" path="/Joinpage" element={<Joinpage />} />
+
           <Route key="Dashboard" path="/Dashboard" element={
             <>
               <Navbar />

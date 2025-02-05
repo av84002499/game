@@ -1,14 +1,5 @@
-import React from "react";
-import "./Dashboard.css";
-
-const Dashboard = () => {
-    return (
-        <>
-            <div className="background1">
-
-                
-                <div className="card4">
-                <h2 className="card-header text-white" style={{ marginLeft: "20px", marginTop: "60px" }}>Match Overview</h2>
+<div className="card4">
+                <h2 className="card-header" style={{ marginLeft: "40px" }}>Match Overview</h2>
 
                 <hr />
 
@@ -125,7 +116,7 @@ const Dashboard = () => {
             </div>
 
             <div className="card6">
-                <h2 className="card-header text-white" style={{ marginLeft: "30px" }}>User Dashboard</h2>
+                <h2 className="card-header" style={{ marginLeft: "30px" }}>User Dashboard</h2>
                 <hr />
                 <div className="card-body">
                     <div className="card-group ">
@@ -199,10 +190,3 @@ const Dashboard = () => {
                     <div className="image"></div>
                 </div>
             </div>
-
-            </div>
-        </>
-    );
-};
-
-export default Dashboard;

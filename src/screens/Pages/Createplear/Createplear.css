@@ -1,23 +1,19 @@
-.card8 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px; 
-    width: 75vh;
-    height: 95vh;
-    margin-top: 16px;
-    margin-left: 370px;
-    background-color: rgb(246, 248, 251);
-    border-radius: 15px; 
-    border: 1px solid #ccc; /* Optional: adds a border */
-
+.background2{
+    background-image: url('../../../../public/assets/cricket2.jpeg');
+    height: auto;
+    width: auto;
 }
+
 
 .header1 {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px; /* Adds spacing below the heading */
+    margin-bottom: 20px; 
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+
 }
 
 .card9 {
@@ -61,50 +57,57 @@
 }
 
 @media (max-width: 768px) {
-    .card8 {
-        width: 90vw;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px;
+    .background2 {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .header1 {
+        font-size: 24px;
+        margin-bottom: 15px;
     }
 
     .card9 {
-        width: 100%;
-        padding: 15px;
+        padding: 10px;
     }
 
     .card-img-top {
         height: auto;
-        max-height: 250px;
+    }
+
+    .card-body {
+        padding: 10px;
+        text-align: center;
     }
 
     .btn-primary {
-        width: 100%;
-        text-align: center;
+        padding: 10px 15px;
+        font-size: 0.9rem;
     }
 }
 
 
+
+
+
 /* OR */
-.card10 {
-    margin: 0;
-    display: flex;
-}
+
 
 .separator {
     display: flex;
     align-items: center;
     text-align: center;
     width: 100%;
-    max-width: 300px;
+    max-width: 820px;
+    margin-left: 210px;
+    margin-top: 13px;
 }
 
 .separator::before,
 .separator::after {
     content: "";
     flex: 1;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px solid #ccc;
 }
 
 .separator span {
@@ -117,50 +120,63 @@
     border: 1px solid #ddd;
 }
 
-/* Mobile (phone) view adjustments */
 @media (max-width: 768px) {
     .separator {
-        max-width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: left;
     }
 
     .separator span {
-        padding: 5px 10px;
-        font-size: 12px;
+        font-size: 14px;
+        padding: 3px 8px;
+    }
+
+    .separator::before,
+    .separator::after {
+        flex: 1;
+        border-bottom: 1px solid #ccc;
     }
 }
 
 
-/* text-container */
 
+
+/* text-container */
+.card10 {
+    margin: 0;
+    display: flex;
+}
 .guru-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 400px;
     padding: 10px;
+    margin-left: 450px;
 }
 
 .text-content h2 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     margin: 0;
-    color: #111;
+    color: #f9f6f6;
 }
 
 .text-content p {
-    font-size: 14px;
-    color: #666;
+    font-size: 18px;
+    color: #f7f3f3;
     margin: 5px 0 0;
 }
 
 .highlight {
     font-weight: bold;
-    color: #111;
+    color: #faf5f5;
 }
 
 .view-all {
-    font-size: 14px;
-    color: #0073ff;
+    font-size: 30px;
+    color: #ff0026;
     text-decoration: none;
     font-weight: 600;
 }
@@ -168,5 +184,29 @@
 .view-all:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .guru-section {
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column; 
+    }
+
+    .text-content h2 {
+        font-size: 18px;
+    }
+
+    .text-content p {
+        font-size: 16px;
+    }
+
+    .view-all {
+        font-size: 24px;
+    }
+}
+
+
+
+/* .guru-section */
 
 

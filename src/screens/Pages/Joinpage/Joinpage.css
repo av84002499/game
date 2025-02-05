@@ -1,0 +1,137 @@
+.background3 {
+    background-image: url('../../../../public/assets/cricket3.jpg');
+    height: auto;
+    width: auto;
+}
+
+.card11 {
+    width: 1400px;
+    margin-left: 70px;
+
+}
+
+.header2 {
+    background: #b71c1c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.timer {
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.card12 {
+    text-align: center;
+    margin: 15px 0;
+    margin-left: 600px;
+    width: auto;
+    /* background-color: rgb(212, 242, 242); */
+    width: 300px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+.prize-pool t {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+
+}
+
+.join-button2 {
+    display: block;
+    text-align: center;
+    background: #1b5e20;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 600px;
+}
+
+.winnings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.winnings-table th,
+.winnings-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.winnings-table th {
+    background: #ff5722;
+    color: white;
+}
+
+.gold {
+    color: gold;
+}
+
+.silver {
+    color: silver;
+}
+
+.bronze {
+    color: #cd7f32;
+}
+
+@media screen and (max-width: 768px) {
+    .card11 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .card12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .join-button2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header2 {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .timer {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    .winnings-table th,
+    .winnings-table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .background3 {
+        background-size: cover;
+        background-position: center;
+    }
+}

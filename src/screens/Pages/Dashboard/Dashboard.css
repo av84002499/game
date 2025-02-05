@@ -1,8 +1,13 @@
+.background1{
+  background-image: url('../../../../public/assets/cricket1.jpg');
+  height: auto;
+  width: auto;
+   
+}
 .card4 {
-  margin-top: 80px;
-  height: px;
-  width: 1500px;
-  background-color: rgb(252, 248, 248);
+  margin-top: 50px;
+  height: auto;
+  width: auto;
   margin-left: 12px;
   border-radius: 10px;
 
@@ -19,6 +24,8 @@
   height: 32%;
   margin-right: 2%;
   margin-top: 1%;
+  
+  
 }
 
 .contest1 {
@@ -29,7 +36,8 @@
   padding: 20px;
   text-align: center;
   margin-top: 2px;
-  margin-left: 20px;
+  margin-left: 30px;
+  
 }
 .match-info {
   font-size: 16px;
@@ -116,25 +124,27 @@
   font-size: 18px;
 }
 
-@media screen and (max-width: 768px) {
-  .card4 {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+@media (max-width: 768px) {
+  
+  .background {
+    background-size: cover;
+    background-position: center;
   }
 
   .card5 {
     width: 100%;
-    margin-right: 0;
     height: auto;
+    margin-right: 0;
+    margin-top: -12px;
     flex-direction: column;
     text-align: center;
+    margin-left: -9px;
   }
 
   .contest1 {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin-left: 0;
+    padding: 15px;
   }
 
   .teams {
@@ -142,30 +152,25 @@
     gap: 10px;
   }
 
-  .team {
-    justify-content: center;
-  }
-
   .team img {
     width: 24px;
     height: 24px;
   }
 
-  .time {
-    font-size: 16px;
-    padding: 5px;
-  }
-
   .prize-pool {
-    height: auto; 
+    width: 100%;
+    max-width: none;
+    height: auto;
     padding: 10px;
   }
 
-  .prize-amount {
-    font-size: 20px;
+  .join-section {
+    font-size: 14px;
+    padding: 8px;
   }
 
   .join-button {
+    width: 100%;
     font-size: 16px;
     padding: 10px;
   }
@@ -179,10 +184,13 @@
 .card6 {
   height: 280px;
   width: 1495px;
-  background-color: rgb(234, 250, 255);
+  /* background-color: rgb(234, 250, 255); */
   margin-left: 14px;
   border-radius: 10px;
   margin-top: 22px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #b71c1c; /* Add this line */
 }
 
 
@@ -200,6 +208,7 @@
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   width: 430px;
   margin-top: -13px;
+  margin-left: 24px;
 }
 
 .wallet-info {
@@ -432,12 +441,12 @@
   }
 
   .content p1 {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .content button {
     width: 100px;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .image {
