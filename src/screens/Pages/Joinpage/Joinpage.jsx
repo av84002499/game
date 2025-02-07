@@ -6,19 +6,19 @@ const Joinpage = () => {
             <div>
             <div className='background3'>
                 <div className='card11'>
-                    <div class="header2">
+                    <div className="header2">
                         <span>SEC vs JSK</span>
-                        <span class="timer2" id="countdown">5h 23m left</span>
+                        <span className="timer2" id="countdown">5h 23m left</span>
                     </div>
 
-                    <div class="card12">
+                    <div className="card12">
                         <p>Guaranteed Prize Pool: <t>₹12 Crores</t></p>
                         <p>Max Prize Pool: <t>₹13.50 Crores</t></p>
                     </div>
 
-                    <a href="!" class="join-button2">JOIN ₹49</a>
+                    <a href="/Playpager" className="join-button2">JOIN ₹49</a>
 
-                    <table class="winnings-table">
+                    <table className="winnings-table">
                         <thead>
                             <tr>
                                 <th>Rank</th>
@@ -27,15 +27,15 @@ const Joinpage = () => {
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="gold">🥇 1</td>
+                                <td className="gold">🥇 1</td>
                                 <td>₹1 Crore</td>
                             </tr>
                             <tr>
-                                <td class="silver">🥈 2</td>
+                                <td className="silver">🥈 2</td>
                                 <td>₹15 Lakhs</td>
                             </tr>
                             <tr>
-                                <td class="bronze">🥉 3</td>
+                                <td className="bronze">🥉 3</td>
                                 <td>₹7 Lakhs</td>
                             </tr>
                             <tr>

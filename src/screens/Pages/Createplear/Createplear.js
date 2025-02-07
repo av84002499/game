@@ -11,22 +11,22 @@ const Createplear = () => {
                 <div className="card9">
                     <img src="../assets/team.png" className="card-img-top" alt="User Icon" />
                     <div className="card-body">
-                        <a href="!" className="btn btn-primary">CREATE YOUR OWN TEAM</a>
+                        <a href="/Playpager" className="btn btn-primary">CREATE YOUR OWN TEAM</a>
                     </div>
                 </div>
 
-                <div class="separator">
+                <div className="separator">
                     <span>OR</span>
                 </div>
 
 
                 <div className='card10'>
-                <div class="guru-section">
-                    <div class="text-content">
+                <div className="guru-section">
+                    <div className="text-content">
                         <h2>Pick from Guru Teams</h2>
-                        <p>Helped <span class="highlight">2 Crore+</span> people win</p>
+                        <p>Helped <span className="highlight">2 Crore+</span> people win</p>
                     </div>
-                    <a href="!" class="view-all">View All &#8250;</a>
+                    <a href="!" className="view-all">View All &#8250;</a>
                 </div>
                 </div>
 

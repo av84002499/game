@@ -1,0 +1,114 @@
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.match-info {
+    font-size: 14px;
+    color: #cc1a1a;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+nav button {
+    border: none;
+    background: none;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px;
+}
+button {
+    background-color: #fad0d0;
+    border: 1px solid #6d51e0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button.active {
+    background-color: #f39898; /* Darker red for the active button */
+    color: white;
+}
+
+button:hover {
+    background-color: #ddd; /* Light gray on hover */
+}
+
+.players {
+    margin-top: 10px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease-in-out forwards;
+    transition: transform 0.3s ease;
+}
+
+.player img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.info {
+    flex: 1;
+}
+
+.points {
+    font-size: 14px;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.add {
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.add:active {
+    background: red;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+footer button {
+    border: none;
+    padding: 10px;
+    width: 48%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.preview {
+    background: #4a80af;
+    color: white;
+}
+
+.next {
+    background: #28a745;
+    color: white;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -139,6 +139,8 @@
     flex-direction: column;
     text-align: center;
     margin-left: -9px;
+    margin-bottom: 25px; 
+
   }
 
   .contest1 {
@@ -407,7 +409,7 @@
     text-align: center;
   }
 
-  .content h11 {
+  .content h6 {
     font-size: 28px;
     margin-top: 0;
   }
