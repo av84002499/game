@@ -93,12 +93,27 @@ const Playpager = () => {
                             </div>
                         </section>
                     </TabPanel>
+                    
+                    <tr>
+                    <td class="player">
+                    <img src="../assets/dhoin.jpg" alt="J Bairstow" />
+                    <span>R Singh</span>
+                        <span class="role">MAL WK</span>
+                    </td>
+                    <td>204 pts</td>
+                    <td><button class="select-btn">C</button></td>
+                    <td><button class="select-btn">VC</button></td>
+                </tr>
                 </TabPanels>
             </TabGroup>
 
             <footer className="bottom-nav">
+            <a href="./Createplear">
                 <button className="preview-btn">👁 Preview</button>
+                </a>
+                <a href="./Captain">
                 <button className="next-btn">Next</button>
+                </a>
             </footer>
         </>
     );

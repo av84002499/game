@@ -1,0 +1,147 @@
+.background1 {
+    background-image: url('../../../../public/assets/cricket1.jpg');
+    background-size: cover; /* Ensure the background covers the screen */
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+
+/* Container */
+.container11 {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 12px;
+}
+
+/* Points Info */
+.points-info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    flex-wrap: wrap; /* Wrap content on small screens */
+}
+
+.captain {
+    font-weight: bold;
+    color: blue;
+}
+
+.vice-captain {
+    font-weight: bold;
+    color: green;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ddd;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensure content wraps in mobile view */
+}
+
+.player img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.role {
+    font-size: 12px;
+    color: gray;
+}
+
+/* Buttons */
+.select-btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Ensures buttons adjust for smaller screens */
+}
+
+.preview-btn, .lineup-btn, .save-btn {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* Responsive buttons */
+.preview-btn2, .next-btn2 {
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 500px;
+}
+
+.preview-btn2 {
+    background: black;
+    color: white;
+    width: 500px;
+}
+
+.next-btn2 {
+    background: lightgray;
+    cursor: not-allowed;
+    width: 500px;
+
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+    .container11 {
+        width: 95%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .points-info {
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    table, th, td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .preview-btn2, .next-btn2 {
+        width: 400px;
+        font-size: 14px;
+    }
+}

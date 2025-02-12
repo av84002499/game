@@ -12,6 +12,7 @@ import Teammanagement from "../screens/Pages/Teammanagement/Teammanagement";
 import Createplear from "../screens/Pages/Createplear/Createplear";
 import Joinpage from "../screens/Pages/Joinpage/Joinpage";
 import Playpager from "../components/Playpager/Playpager"
+import Captain from "../screens/Pages/Captain/Captain"
 
 const AppRoutes = () => {
   return (
@@ -25,6 +26,7 @@ const AppRoutes = () => {
       <Route path="/Createplear" element={<Createplear />} />
       <Route path="/Joinpage" element={<Joinpage />} />
       <Route path="/Playpager" element={<Playpager />} />
+      <Route path="/Captain" element={<Captain />} />
 
 
       <Route
