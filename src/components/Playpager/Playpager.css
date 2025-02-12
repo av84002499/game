@@ -9,7 +9,7 @@ body, html {
 /* Header */
 .header {
     background: linear-gradient(to right, #d32f2f, #ff9800);
-    color: white;
+    color: rgb(61, 46, 46);
     padding: 15px;
     text-align: center;
     position: relative;
