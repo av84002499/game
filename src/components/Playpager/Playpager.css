@@ -180,15 +180,12 @@
 
     /* Adjust player card for mobile */
     .player-card {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 12px;
+        display: flex;
+        margin: auto;
     }
-
-    .player-card img {
-        margin-bottom: 8px;
-    }
+    
+   
+    
 
     /* Make category tabs more touch-friendly */
     .category-tabs button {
