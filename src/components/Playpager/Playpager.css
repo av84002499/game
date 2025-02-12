@@ -1,114 +1,217 @@
-header {
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(to right, #d32f2f, #ff9800);
+    color: white;
+    padding: 15px;
     text-align: center;
-    padding-bottom: 10px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
 }
+
+/* Match Info */
 .match-info {
-    font-size: 14px;
-    color: #cc1a1a;
-}
-nav {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
-}
-nav button {
-    border: none;
-    background: none;
-    font-size: 14px;
-    cursor: pointer;
-    padding: 5px;
-}
-button {
-    background-color: #fad0d0;
-    border: 1px solid #6d51e0;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-button.active {
-    background-color: #f39898; /* Darker red for the active button */
-    color: white;
-}
-
-button:hover {
-    background-color: #ddd; /* Light gray on hover */
-}
-
-.players {
-    margin-top: 10px;
-}
-
-.player {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 0.5s ease-in-out forwards;
-    transition: transform 0.3s ease;
-}
-
-.player img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.info {
-    flex: 1;
-}
-
-.points {
-    font-size: 14px;
-    color: #007bff;
-    margin-right: 10px;
-}
-
-.add {
-    border: none;
-    background: #007bff;
-    color: white;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.add:active {
-    background: red;
-}
-
-footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    align-items: center;
+    padding: 10px 15px;
 }
 
-footer button {
+/* Back Button */
+.back-btn {
+    background: none;
     border: none;
-    padding: 10px;
-    width: 48%;
-    border-radius: 5px;
+    color: white;
+    font-size: 20px;
     cursor: pointer;
 }
 
-.preview {
-    background: #4a80af;
-    color: white;
+/* Match Details */
+.match-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin: auto;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.next {
-    background: #28a745;
-    color: white;
+.team {
+    flex: 1;
+    text-align: center;
 }
 
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-        transform: translateY(0);
+.score {
+    flex: 1;
+    text-align: center;
+}
+
+/* Progress Bar */
+.progress-bar {
+    background: #222;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Category Tabs */
+.category-tabs {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 12px;
+    border-bottom: 2px solid #ddd;
+}
+
+.category-tabs button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.category-tabs .active {
+    color: red;
+    border-bottom: 3px solid red;
+}
+
+/* Player List */
+.player-list {
+    padding: 10px;
+}
+
+/* Player Card */
+.player-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.player-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.player-info {
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.points, .credits {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Add Button */
+.add-btn {
+    background: green;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
+
+.preview-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 12px;
+    flex: 1;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.next-btn {
+    background: lightgray;
+    border: none;
+    padding: 12px;
+    flex: 1;
+    font-size: 16px;
+    cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Adjusting header */
+    .header {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    /* Making match details responsive */
+    .match-details {
+        width: 90%;
+        font-size: 18px;
+        flex-direction: column;
+        padding: 12px;
+        text-align: center;
+    }
+
+    /* Adjust player card for mobile */
+    .player-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 12px;
+    }
+
+    .player-card img {
+        margin-bottom: 8px;
+    }
+
+    /* Make category tabs more touch-friendly */
+    .category-tabs button {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    /* Improve bottom navigation */
+    .bottom-nav {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .preview-btn, .next-btn {
+        width: 100%;
+        margin-bottom: 6px;
+        font-size: 16px;
     }
 }

@@ -1,97 +1,107 @@
-import React from 'react'
-import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
-import "./Playpager.css"
+import React from 'react';
+import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react';
+import "./Playpager.css";
 
 const Playpager = () => {
     return (
-        <div>
-            <div className="container">
-                <header>
-                    <div className="match-info">
-                        <span>SEC 0 - 0 JSK</span>
-                        <span className="timer">2h 28m left</span>
-                    </div>
+        <>
+            <header className="header">
+                <div className="match-info">
                     <h2>Create Team</h2>
-                </header>
+                    <div className="time-left">2h 28m left</div>
+                </div>
+                <div className="match-details">
+                    <span className="team" style={{ textAlign: "left" }}>
+                        <img src="../assets/csk.jpg" alt="CSK Logo" className="team-logo" />
+                        SEC
+                    </span>
+                    <span className="score">1 - 1</span>
+                    <span className="team" style={{ textAlign: "right" }}>
+                        JSK
+                        <img src="../assets/lucknow.jpg" alt="JSK Logo" className="team-logo" />
+                    </span>
+                </div>
 
-                <TabGroup>
-                    <TabList>
-                        <Tab>Wicket-Keepers</Tab>
-                        <Tab>Batters</Tab>
-                        <Tab>All-Rounders</Tab>
-                        <Tab>Bowlers</Tab>
-                    </TabList>
+                <div className="progress-bar">
+                    <span>0/11</span>
+                </div>
+            </header>
 
-                    <TabPanels>
-                        <TabPanel>
-                            {/* Wicket-Keepers Players */}
-                            <div className="players">
-                                <div className="player">
-                                    <img src="bairstow.jpg" alt="J Bairstow" />
-                                    <div className="info">
-                                        <h3>J Bairstow</h3>
-                                        <p>Sel by 25.21%</p>
-                                    </div>
-                                    <span className="points">367</span>
-                                    <button className="add">+</button>
+            <TabGroup>
+                <TabList className="category-tabs">
+                    <Tab className={({ selected }) => selected ? "active" : ""}>Wicket-Keepers</Tab>
+                    <Tab className={({ selected }) => selected ? "active" : ""}> Batter</Tab>
+                    <Tab className={({ selected }) => selected ? "active" : ""}>All-Rounders</Tab>
+                    <Tab className={({ selected }) => selected ? "active" : ""}>Bowlers</Tab>
+                </TabList>
+
+                <TabPanels>
+                    <TabPanel>
+                        <section className="player-list">
+                            <div className="player-card">
+                                <img src="../assets/dhoin.jpg" alt="J Bairstow" />
+                                <div className="player-info">
+                                    <h3>J Bairstow</h3>
+                                    <p>Sel by 25.21%</p>
                                 </div>
+                                <span className="points">367</span>
+                                <span className="credits">8.5</span>
+                                <button className="add-btn">+</button>
                             </div>
-                        </TabPanel>
-
-                        <TabPanel>
-                            {/* Batters Players */}
-                            <div className="players">
-                                <div className="player">
-                                    <img src="stubbs.jpg" alt="T Stubbs" />
-                                    <div className="info">
-                                        <h3>T Stubbs</h3>
-                                        <p>Sel by 72.9%</p>
-                                    </div>
-                                    <span className="points">357</span>
-                                    <button className="add">+</button>
+                        </section>
+                    </TabPanel>
+                    <TabPanel>
+                        <section className="player-list">
+                            <div className="player-card">
+                            <img src="../assets/dhoin.jpg" alt="J Bairstow" />
+                            <div className="player-info">
+                                    <h3>T Stubbs</h3>
+                                    <p>Sel by 72.9%</p>
                                 </div>
+                                <span className="points">357</span>
+                                <span className="credits">8.0</span>
+                                <button className="add-btn">+</button>
                             </div>
-                        </TabPanel>
-
-                        <TabPanel>
-                            {/* All-Rounders Players */}
-                            <div className="players">
-                                <div className="player">
-                                    <img src="conway.jpg" alt="D Conway" />
-                                    <div className="info">
-                                        <h3>D Conway</h3>
-                                        <p>Sel by 78.99%</p>
-                                    </div>
-                                    <span className="points">364</span>
-                                    <button className="add">+</button>
+                        </section>
+                    </TabPanel>
+                    <TabPanel>
+                        <section className="player-list">
+                            <div className="player-card">
+                            <img src="../assets/dhoin.jpg" alt="J Bairstow" />
+                            <div className="player-info">
+                                    <h3>D Conway</h3>
+                                    <p>Sel by 78.99%</p>
                                 </div>
+                                <span className="points">364</span>
+                                <span className="credits">8.0</span>
+                                <button className="add-btn">+</button>
                             </div>
-                        </TabPanel>
+                        </section>
+                    </TabPanel>
+                    <TabPanel>
+                        <section className="player-list">
+                            <div className="player-card">
+                            <img src="../assets/dhoin.jpg" alt="J Bairstow" />
 
-                        <TabPanel>
-                            {/* Bowlers Players */}
-                            <div className="players">
-                                <div className="player">
-                                    <img src="bairstow.jpg" alt="J Bairstow" />
-                                    <div className="info">
-                                        <h3>J Bairstow</h3>
-                                        <p>Sel by 25.21%</p>
-                                    </div>
-                                    <span className="points">367</span>
-                                    <button className="add">+</button>
+                            <div className="player-info">
+                                    <h3>D Smith</h3>
+                                    <p>Sel by 0.58%</p>
                                 </div>
+                                <span className="points">0</span>
+                                <span className="credits">6.0</span>
+                                <button className="add-btn">+</button>
                             </div>
-                        </TabPanel>
-                    </TabPanels>
-                </TabGroup>
+                        </section>
+                    </TabPanel>
+                </TabPanels>
+            </TabGroup>
 
-                <footer>
-                    <button className="preview">Preview</button>
-                    <button className="next">Next</button>
-                </footer>
-            </div>
-        </div>
-    )
+            <footer className="bottom-nav">
+                <button className="preview-btn">👁 Preview</button>
+                <button className="next-btn">Next</button>
+            </footer>
+        </>
+    );
 }
 
 export default Playpager;
