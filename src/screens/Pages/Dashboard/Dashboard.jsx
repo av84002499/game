@@ -21,7 +21,7 @@ const Dashboard = () => {
                                     <div className="match-info">India vs England ODI</div>
                                     <div className="teams">
                                         <div className="team"><img src="../assets/lucknow.jpeg" alt="India" /> IND</div>
-                                        <div className="time">41h</div>
+                                        <div className="ti1 center">41h</div>
                                         <div className="team">ENG <img src="../assets/rajasthan.png" alt="England" /></div>
                                     </div>
                                     <a href="/Joinpage">
@@ -47,7 +47,7 @@ const Dashboard = () => {
                                     <div className="match-info">India vs England ODI</div>
                                     <div className="teams">
                                         <div className="team"><img src="../assets/lucknow.jpeg" alt="India" /> IND</div>
-                                        <div className="time">41h</div>
+                                        <div className="ti1 center">41h</div>
                                         <div className="team">ENG <img src="../assets/rajasthan.png" alt="England" /></div>
                                     </div>
                                     <a href="/Joinpage">
@@ -73,7 +73,7 @@ const Dashboard = () => {
                                     <div className="match-info">India vs England ODI</div>
                                     <div className="teams">
                                         <div className="team"><img src="../assets/lucknow.jpeg" alt="India" /> IND</div>
-                                        <div className="time">41h</div>
+                                        <div className="ti1 center">41h</div>
                                         <div className="team">ENG <img src="../assets/rajasthan.png" alt="England" /></div>
                                     </div>
                                     <a href="/Joinpage">
@@ -99,7 +99,7 @@ const Dashboard = () => {
                                     <div className="match-info">India vs England ODI</div>
                                     <div className="teams">
                                         <div className="team"><img src="../assets/lucknow.jpeg" alt="India" /> IND</div>
-                                        <div className="time">41h</div>
+                                        <div className="ti1 center">41h</div>
                                         <div className="team">ENG <img src="../assets/rajasthan.png" alt="England" /></div>
                                     </div>
                                     <a href="/Joinpage">
