@@ -141,7 +141,7 @@ th {
     }
 
     .preview-btn2, .next-btn2 {
-        width: 400px;
+        width: auto;
         font-size: 14px;
     }
 }

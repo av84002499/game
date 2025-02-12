@@ -182,6 +182,7 @@
     .player-card {
         display: flex;
         margin: auto;
+        width: auto;
     }
     
    
