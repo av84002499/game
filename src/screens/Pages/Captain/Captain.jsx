@@ -60,7 +60,7 @@ const Captain = () => {
         <a href="./Createplear">
                 <button className="preview-btn2">👁 Preview</button>
                 </a>
-                <a href="./Captain">
+                <a href="./Pyment">
                 <button className="next-btn2">SAVE</button>
                 </a>
         </div>

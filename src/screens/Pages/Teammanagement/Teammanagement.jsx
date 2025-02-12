@@ -5,8 +5,9 @@ const Teammanagement = () => {
   return (
     <>
      <div className="container4">
-        <h2>Upcoming & Live Matches</h2>
+        <h2>My Matches</h2>
         <hr />
+        
         <div className="matches-grid">
             <div className="match-card">
                 <p>Team A vs Team B</p>

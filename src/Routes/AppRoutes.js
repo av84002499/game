@@ -13,6 +13,7 @@ import Createplear from "../screens/Pages/Createplear/Createplear";
 import Joinpage from "../screens/Pages/Joinpage/Joinpage";
 import Playpager from "../components/Playpager/Playpager"
 import Captain from "../screens/Pages/Captain/Captain"
+import Pyment from "../components/Pyment/Pyment"
 
 const AppRoutes = () => {
   return (
@@ -27,6 +28,8 @@ const AppRoutes = () => {
       <Route path="/Joinpage" element={<Joinpage />} />
       <Route path="/Playpager" element={<Playpager />} />
       <Route path="/Captain" element={<Captain />} />
+      <Route path="/Pyment" element={<Pyment />} />
+
 
 
       <Route
