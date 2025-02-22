@@ -3,7 +3,7 @@ import "./Captain.css"
 
 const Captain = () => {
   return (
-    <div className="background1">
+    <div className="background12">
     <div className='container11'>
       <div className="info">
       <p className="text-center">Choose your Captain and Vice Captain</p>
@@ -57,7 +57,7 @@ const Captain = () => {
         </table>
 
         <div className="footer">
-        <a href="./Createplear">
+        <a href="./Playpager">
                 <button className="preview-btn2">👁 Preview</button>
                 </a>
                 <a href="./Pyment">

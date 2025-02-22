@@ -8,12 +8,15 @@ import Forgot from "../screens/Auth/Forgot";
 import Otp from "../screens/Auth/Otp";
 import Updatepass from "../screens/Auth/Updatepass";
 import Dashboard from "../screens/Pages/Dashboard/Dashboard";
-import Teammanagement from "../screens/Pages/Teammanagement/Teammanagement";
+import Mymatches from "../screens/Pages/Mymatches/Mymatches";
 import Createplear from "../screens/Pages/Createplear/Createplear";
 import Joinpage from "../screens/Pages/Joinpage/Joinpage";
 import Playpager from "../components/Playpager/Playpager"
 import Captain from "../screens/Pages/Captain/Captain"
 import Pyment from "../components/Pyment/Pyment"
+import Guruteams from "../components/Guruteams/Guruteams"
+import Walletdashboard from "../components/Walletdashboard/Walletdashboard"
+import Profile from "../screens/Pages/Profile/Profile"
 
 const AppRoutes = () => {
   return (
@@ -29,6 +32,9 @@ const AppRoutes = () => {
       <Route path="/Playpager" element={<Playpager />} />
       <Route path="/Captain" element={<Captain />} />
       <Route path="/Pyment" element={<Pyment />} />
+      <Route path="/Guruteams" element={<Guruteams />} />
+      <Route path="/Walletdashboard" element={<Walletdashboard />} />
+
 
 
 
@@ -41,12 +47,22 @@ const AppRoutes = () => {
           </>
         }
       />
-
+      
       <Route
-        path="/Teammanagement"
+        path="/Profile"
         element={
           <>
-            <Teammanagement />
+            <Navbar />
+            <Profile />
+          </>
+        }
+      />
+
+      <Route
+        path="/Mymatches"
+        element={
+          <>
+            <Mymatches />
             <Navbar />
           </>
         }

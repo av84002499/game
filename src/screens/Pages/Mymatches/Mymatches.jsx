@@ -1,7 +1,7 @@
 import React from 'react'
-import "./Teammanagement.css"
+import "./Mymatches.css"
 
-const Teammanagement = () => {
+const Mymatches = () => {
   return (
     <>
      <div className="container4">
@@ -41,4 +41,4 @@ const Teammanagement = () => {
   )
 }
 
-export default Teammanagement
+export default Mymatches

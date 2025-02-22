@@ -1,11 +1,12 @@
 .confirmation-container {
     width: 90%;
-    max-width: 400px;
+    max-width: 360px;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
+    margin: 40px auto; /* Centered */
 }
 
 .header {
@@ -15,7 +16,7 @@
 .close-btn {
     position: absolute;
     left: 10px;
-    font-size: 20px;
+    font-size: 22px;
     cursor: pointer;
 }
 
@@ -68,17 +69,44 @@ h2 {
 }
 
 .join-btn {
-    width: 100%;
-    padding: 12px;
-    background-color: #0ba640;
-    border: none;
-    border-radius: 5px;
-    color: white;
+    display: block; 
+    width: 80%; 
+    max-width: 250px; 
+    padding: 14px;
     font-size: 16px;
+    background-color: #0aaf40;
+    color: white;
+    border: none;
     cursor: pointer;
-    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    margin: 20px auto 0; 
+    text-align: center;
 }
 
 .join-btn:hover {
     background-color: #088f35;
+}
+
+
+/* Responsive Styling */
+@media (max-width: 480px) {
+    .confirmation-container {
+        width: 95%;
+        max-width: 320px;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .entry, .to-pay {
+        font-size: 14px;
+    }
+
+    .join-btn {
+        font-size: 14px; 
+        padding: 10px 16px; 
+    }
 }

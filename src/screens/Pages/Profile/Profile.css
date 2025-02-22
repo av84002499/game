@@ -1,0 +1,258 @@
+.container13 {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    background: rgba(251, 253, 254, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+
+}
+
+.card14 {
+    background-color: #dbddf8;
+    height: auto;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-details {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 3px solid #e63946;
+}
+
+.profile-info h2 {
+    margin: 0;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.edit-btn {
+    background: #e63946;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.edit-btn:hover {
+    background: #d62839;
+}
+
+/* Edit Profile */
+.edit-profile {
+    padding: 20px;
+    /* background: #f1f1f1; */
+    border-radius: 10px;
+    margin: 20px 0;
+    background: rgba(251, 253, 254, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+.edit-profile input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.save-btn {
+    background: #28a745;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.save-btn:hover {
+    background: #218838;
+}
+
+/* Referral System */
+.referral-settings {
+    padding: 20px;
+    background: rgba(251, 253, 254, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+.referral-settings input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.invite-btn {
+    background: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.invite-btn:hover {
+    background: #0056b3;
+}
+
+/* Notification Settings */
+.settings {
+    margin-top: 15px;
+}
+
+.settings label {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.settings input {
+    margin-right: 10px;
+}
+
+.save-settings-btn {
+    background: #ff9800;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.save-settings-btn:hover {
+    background: #e68900;
+}
+
+.settings input[type="checkbox"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Custom Checkbox Checked State */
+.settings input[type="checkbox"]:checked {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+.settings input[type="checkbox"]:checked::after {
+    content: "✔";
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    left: 3px;
+    top: -1px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .profile-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-pic {
+        margin-bottom: 10px;
+    }
+
+    .referral-settings input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+.category-tabs1 {
+    display: flex;
+    justify-content: center; /* Center tabs */
+    gap: 300px; 
+    background: rgb(223, 231, 245);
+    padding: 12px;
+    border-bottom: 2px solid #ddd;
+    border-radius: 10px;
+    width: 90%; 
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; 
+    margin-bottom: -42px;
+    margin-top: 72px;
+}
+
+/* Style for buttons */
+.category-tabs1 button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: 0.3s ease-in-out;
+}
+
+.category-tabs1 button:hover {
+    color: #007bff;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+    .category-tabs1 {
+        justify-content: flex-start;
+        overflow-x: auto; 
+        white-space: nowrap;
+        padding: 10px;
+        margin-top: 70px; 
+        border-radius: 8px;
+        margin-bottom: -52px;
+        gap: 130px; 
+
+    }
+
+    .category-tabs1 button {
+        font-size: 14px; 
+        padding: 8px 10px;
+    }
+}

@@ -1,0 +1,131 @@
+/* Card Styling */
+.card13 {
+    background: white;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 22px;
+}
+
+/* User Info */
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 0;
+}
+
+p {
+    margin: 4px 0;
+    font-size: 12px;
+    color: gray;
+}
+
+.gold-badge {
+    color: gold;
+    font-weight: bold;
+}
+
+.likes {
+    font-size: 14px;
+    color: gray;
+}
+
+/* Team Details */
+.team-details {
+    background: #027a02;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 12px;
+}
+
+.mega-tag {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: yellow;
+}
+
+.players {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.captain, .vice-captain {
+    font-size: 10px;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.captain {
+    background: black;
+}
+
+.vice-captain {
+    background: gray;
+}
+
+/* Bottom Section */
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.picked {
+    font-size: 12px;
+    color: gray;
+}
+
+.pick-team-btn {
+    background: #f4f4f4;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.pick-team-btn:hover {
+    background: #e0e0e0;
+}
+
+
+
