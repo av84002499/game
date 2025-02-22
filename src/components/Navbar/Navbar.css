@@ -73,20 +73,7 @@
     margin-left: 22px;
   }
   
-  .dropdown-item:hover {
-    background: #f0f0f0;
-  }
+ 
   
-  .logout-btn {
-    width: 100%;
-    background: none;
-    border: none;
-    color: red;
-    cursor: pointer;
-    padding: 10px;
-  }
   
-  .logout-btn:hover {
-    background: #ffcccc;
-  }
   
