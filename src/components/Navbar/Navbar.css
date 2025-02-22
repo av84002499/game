@@ -52,7 +52,7 @@
   /* Mobile View Adjustments */
   @media (max-width: 600px) {
     .dropdown {
-      top: 60px;
+      top: 40px;
       right: -20px;
       min-width: 130px;
       font-size: 14px;
@@ -70,6 +70,7 @@
     text-decoration: none;
     color: black;
     font-size: 14px;
+    margin-left: 22px;
   }
   
   .dropdown-item:hover {

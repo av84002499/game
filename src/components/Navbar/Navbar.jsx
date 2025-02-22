@@ -31,9 +31,7 @@ const Navbar = () => {
             <h5 className="nav-item"><a className="nav-link" href="/profile">Profile</a></h5>
           </ul>
           <div className="d-flex align-items-center gap-3">
-            <i className="bi bi-search fs-5"></i>
-            <i className="bi bi-people-fill fs-5"></i>
-            <i className="bi bi-bell-fill fs-5"></i>
+            
      <div className="profile-menu">
       <img
         src="../assets/user.png"
